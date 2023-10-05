@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
+<body>
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+</body>
+</html> 
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+  background-color: grey;
+}
+
+.header {
+  background-color: goldenrod;
+  color: #ffffff;
+  padding: 15px; 
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: gold;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: black;
+}
+
+.aside {
+  background-color: goldenrod;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: goldenrod;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+
+
+</style>
+<body>
+
+
+
+
+
+
+</head>
+<body>
+
+<div class="header">
+  <h1> Fortune Finders </h1>
+  <p> Bringing unprecedented Block-chain solutions for NSFAS problems! </p>
+  <p> Revolutionizing our funds as students</p>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>Student user</li>
+      <li> Private Personnel user</li>
+      <li>Smart contract</li>
+      <li>Data breach tracking</li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1> Capstone project</h1>
+    <p>We are students specialists based in Auckland Park Johannesburg at your service.</p>
+    <video width="400" controls>
+      <source src="mov_bbb.mp4" type="video/mp4">
+      <source src="mov_bbb.ogg" type="video/ogg">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>Strategy</h2>
+      <p> Using Blockchain technology to monitor and track the movement of students' funds.</p>
+      <h2> Feasibility</h2>
+      <p> Regulate the stability of the ethereum coin to withstand market fluctuation.</p>
+      <h2>Objective</h2>
+      <p>Through smart contracts, face recognition and cybersecurity incident report.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <font size="+3"> Blockchain Software Developers</font>
+  <p> <font size="+2">Your reliable Team from FortuneFinders </p></font>
+  <p> Contact us on FortuneFinders@nsfas.org / 011 559 0808</p>
+  <p> 34 Melrose Boulevard, Melrose Arch 2nd Floor </p>
+</div>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+img {
+  width: 20%;
+  height: max-content;
+  align-items: first baseline;
+  align-content: center;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+</head>
+<body>
+             
+  
+  <div class="row">
+    <div class="column">
+      <img src="img_chania.jpg" alt="Snow" style="width:100%;  height:417px;">
+      <b><p>Thizwilondi Prince Makhesha  </p></b>
+       <em><p>Blockchain engineer</p>  </em>    
+      
+    </div>
+    <div class="column">
+      <img src="img_teb.jpg" alt="Forest" style="width:100%;  height:417px;" >
+      <b><p>Tebogo Mojela        
+      </p></b>
+<p> <em>Product specialist</p></em>
+
+    </div>
+    <div class="column">
+      <img src="img_thabo.jpg" alt="Mountains" style="width:120%;   height:417px;">
+      <b><p>Thabo Martins </p></b>
+      <p> <em>Userbility interface specialist</p></em>
+    </div>
+  </div>
+  
+
+</body>
+</html>
+
+
+
+
+
